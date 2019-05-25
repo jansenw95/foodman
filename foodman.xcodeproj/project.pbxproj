@@ -14,6 +14,7 @@
 		56D4A32E2299F57200B01464 /* foodmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A32D2299F57200B01464 /* foodmanTests.swift */; };
 		56D4A3392299F57200B01464 /* foodmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A3382299F57200B01464 /* foodmanUITests.swift */; };
 		56D4A34A2299FB2F00B01464 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A3492299FB2F00B01464 /* searchViewController.swift */; };
+		C6317A2B2299FECB00C7F848 /* FoodCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6317A2A2299FECB00C7F848 /* FoodCat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		56D4A3382299F57200B01464 /* foodmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodmanUITests.swift; sourceTree = "<group>"; };
 		56D4A33A2299F57200B01464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56D4A3492299FB2F00B01464 /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		C6317A2A2299FECB00C7F848 /* FoodCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		56D4A3172299F57100B01464 /* foodman */ = {
 			isa = PBXGroup;
 			children = (
+				C6317A292299FEA100C7F848 /* Models */,
 				56D4A3472299F6CF00B01464 /* view */,
 				56D4A3462299F6C500B01464 /* control */,
 				56D4A3182299F57100B01464 /* AppDelegate.swift */,
@@ -139,6 +142,14 @@
 				56D4A3492299FB2F00B01464 /* searchViewController.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		C6317A292299FEA100C7F848 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6317A2A2299FECB00C7F848 /* FoodCat.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6317A2B2299FECB00C7F848 /* FoodCat.swift in Sources */,
 				56D4A31B2299F57200B01464 /* ViewController.swift in Sources */,
 				56D4A3192299F57100B01464 /* AppDelegate.swift in Sources */,
 				56D4A34A2299FB2F00B01464 /* searchViewController.swift in Sources */,
