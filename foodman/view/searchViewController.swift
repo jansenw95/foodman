@@ -9,11 +9,19 @@
 import UIKit
 
 class searchViewController: UIViewController {
-
-    @IBOutlet weak var searchBar: UISearchBar!
+    
+    @IBOutlet weak var ourLabel: UILabel!
+    @IBOutlet weak var textFieldName: UITextField!
+    @IBAction func buttonPressed(_ sender: Any) {
+        print("button pressed")
+        ourLabel.text = textFieldName.text
+    }
+    
+    
+    
+    //@IBOutlet weak var searchBar: UISearchBar!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     

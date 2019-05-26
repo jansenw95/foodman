@@ -18,34 +18,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="" placeholder="List all ingredients" translatesAutoresizingMaskIntoConstraints="NO" id="WAo-fg-V3u">
-                                <rect key="frame" x="0.0" y="53" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yg9-vX-UDR">
+                                <rect key="frame" x="159" y="378" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="search"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbT-fv-c5e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kI-2w-mLh">
+                                <rect key="frame" x="82" y="451" width="175" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hello" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lEX-Vg-Rj8">
+                                <rect key="frame" x="9" y="253" width="281" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="dNb-be-aXa"/>
+                                    <action selector="TextInput:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="aWI-pZ-5N2"/>
+                                    <action selector="textFieldTest:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ta2-O2-AmB"/>
                                 </connections>
-                            </searchBar>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="searchBar" destination="WAo-fg-V3u" id="eAP-To-rTu"/>
+                        <outlet property="ourLabel" destination="2kI-2w-mLh" id="n7E-sT-m6U"/>
                         <outlet property="searchDisplayController" destination="THp-ph-mY6" id="srr-4x-IkA"/>
+                        <outlet property="textFieldName" destination="lEX-Vg-Rj8" id="JJW-FC-Kta"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <searchDisplayController id="THp-ph-mY6">
                     <connections>
                         <outlet property="delegate" destination="BYZ-38-t0r" id="045-g3-XwB"/>
-                        <outlet property="searchBar" destination="WAo-fg-V3u" id="I16-cb-JXy"/>
                         <outlet property="searchContentsController" destination="BYZ-38-t0r" id="fLA-EF-5Ky"/>
                         <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="6Za-sp-xdS"/>
                         <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="IUB-wQ-bNp"/>
                     </connections>
                 </searchDisplayController>
             </objects>
+            <point key="canvasLocation" x="156.52173913043478" y="20.758928571428569"/>
         </scene>
     </scenes>
 </document>

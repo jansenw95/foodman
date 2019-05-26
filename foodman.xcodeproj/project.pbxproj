@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D450B4CE8970B58F6597903 /* Pods_foodmanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC73284D7370C193E70AAE9 /* Pods_foodmanUITests.framework */; };
 		56D4A3192299F57100B01464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A3182299F57100B01464 /* AppDelegate.swift */; };
-		56D4A31B2299F57200B01464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A31A2299F57200B01464 /* ViewController.swift */; };
 		56D4A31E2299F57200B01464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D4A31C2299F57200B01464 /* Main.storyboard */; };
 		56D4A3202299F57200B01464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D4A31F2299F57200B01464 /* Assets.xcassets */; };
 		56D4A32E2299F57200B01464 /* foodmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A32D2299F57200B01464 /* foodmanTests.swift */; };
 		56D4A3392299F57200B01464 /* foodmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A3382299F57200B01464 /* foodmanUITests.swift */; };
 		56D4A34A2299FB2F00B01464 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A3492299FB2F00B01464 /* searchViewController.swift */; };
-		C6317A2B2299FECB00C7F848 /* FoodCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6317A2A2299FECB00C7F848 /* FoodCat.swift */; };
+		7272566BEAEE5472E12E29FE /* Pods_foodman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914D29BD7C3C9581EE75C6CD /* Pods_foodman.framework */; };
+		85417A9E311D027C1D69771D /* Pods_foodmanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E098516CD528890DD0AF532 /* Pods_foodmanTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49FAE2B73E04E56262684E7E /* Pods-foodman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodman.debug.xcconfig"; path = "Target Support Files/Pods-foodman/Pods-foodman.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE14109D8F71F08D854CBB7 /* Pods-foodmanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodmanTests.release.xcconfig"; path = "Target Support Files/Pods-foodmanTests/Pods-foodmanTests.release.xcconfig"; sourceTree = "<group>"; };
 		56D4A3152299F57100B01464 /* foodman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D4A3182299F57100B01464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56D4A31A2299F57200B01464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56D4A31D2299F57200B01464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56D4A31F2299F57200B01464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56D4A3242299F57200B01464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +50,13 @@
 		56D4A3382299F57200B01464 /* foodmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodmanUITests.swift; sourceTree = "<group>"; };
 		56D4A33A2299F57200B01464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56D4A3492299FB2F00B01464 /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
-		C6317A2A2299FECB00C7F848 /* FoodCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCat.swift; sourceTree = "<group>"; };
+		7679906C7803FD4EC527AB79 /* Pods-foodmanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodmanUITests.debug.xcconfig"; path = "Target Support Files/Pods-foodmanUITests/Pods-foodmanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		914D29BD7C3C9581EE75C6CD /* Pods_foodman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4A1A100F33FF43E5623AD3 /* Pods-foodman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodman.release.xcconfig"; path = "Target Support Files/Pods-foodman/Pods-foodman.release.xcconfig"; sourceTree = "<group>"; };
+		9BC73284D7370C193E70AAE9 /* Pods_foodmanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodmanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E098516CD528890DD0AF532 /* Pods_foodmanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foodmanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB37CA700461FF3C90B9483E /* Pods-foodmanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodmanTests.debug.xcconfig"; path = "Target Support Files/Pods-foodmanTests/Pods-foodmanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CDA4546ED03B315C713F90 /* Pods-foodmanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodmanUITests.release.xcconfig"; path = "Target Support Files/Pods-foodmanUITests/Pods-foodmanUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7272566BEAEE5472E12E29FE /* Pods_foodman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85417A9E311D027C1D69771D /* Pods_foodmanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +80,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D450B4CE8970B58F6597903 /* Pods_foodmanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		476D864257823B71BD0FC2F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49FAE2B73E04E56262684E7E /* Pods-foodman.debug.xcconfig */,
+				9A4A1A100F33FF43E5623AD3 /* Pods-foodman.release.xcconfig */,
+				CB37CA700461FF3C90B9483E /* Pods-foodmanTests.debug.xcconfig */,
+				4EE14109D8F71F08D854CBB7 /* Pods-foodmanTests.release.xcconfig */,
+				7679906C7803FD4EC527AB79 /* Pods-foodmanUITests.debug.xcconfig */,
+				F3CDA4546ED03B315C713F90 /* Pods-foodmanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		56D4A30C2299F57100B01464 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				56D4A32C2299F57200B01464 /* foodmanTests */,
 				56D4A3372299F57200B01464 /* foodmanUITests */,
 				56D4A3162299F57100B01464 /* Products */,
+				476D864257823B71BD0FC2F1 /* Pods */,
+				7EB2E43255681B5C9DE463ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,19 +164,20 @@
 		56D4A3472299F6CF00B01464 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				56D4A31A2299F57200B01464 /* ViewController.swift */,
 				56D4A31C2299F57200B01464 /* Main.storyboard */,
 				56D4A3492299FB2F00B01464 /* searchViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
 		};
-		C6317A292299FEA100C7F848 /* Models */ = {
+		7EB2E43255681B5C9DE463ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6317A2A2299FECB00C7F848 /* FoodCat.swift */,
+				914D29BD7C3C9581EE75C6CD /* Pods_foodman.framework */,
+				9E098516CD528890DD0AF532 /* Pods_foodmanTests.framework */,
+				9BC73284D7370C193E70AAE9 /* Pods_foodmanUITests.framework */,
 			);
-			path = Models;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56D4A33D2299F57200B01464 /* Build configuration list for PBXNativeTarget "foodman" */;
 			buildPhases = (
+				04FF9EEACAB9864C69E1A67C /* [CP] Check Pods Manifest.lock */,
 				56D4A3112299F57100B01464 /* Sources */,
 				56D4A3122299F57100B01464 /* Frameworks */,
 				56D4A3132299F57100B01464 /* Resources */,
+				9FE416EBBC7DAB9513916818 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56D4A3402299F57200B01464 /* Build configuration list for PBXNativeTarget "foodmanTests" */;
 			buildPhases = (
+				F88FB0BE6D81A0B79EF94635 /* [CP] Check Pods Manifest.lock */,
 				56D4A3252299F57200B01464 /* Sources */,
 				56D4A3262299F57200B01464 /* Frameworks */,
 				56D4A3272299F57200B01464 /* Resources */,
@@ -194,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56D4A3432299F57200B01464 /* Build configuration list for PBXNativeTarget "foodmanUITests" */;
 			buildPhases = (
+				FCD8757131512C6788C2448D /* [CP] Check Pods Manifest.lock */,
 				56D4A3302299F57200B01464 /* Sources */,
 				56D4A3312299F57200B01464 /* Frameworks */,
 				56D4A3322299F57200B01464 /* Resources */,
@@ -276,6 +308,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04FF9EEACAB9864C69E1A67C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE416EBBC7DAB9513916818 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodman/Pods-foodman-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodman/Pods-foodman-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodman/Pods-foodman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88FB0BE6D81A0B79EF94635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodmanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD8757131512C6788C2448D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodmanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56D4A3112299F57100B01464 /* Sources */ = {
@@ -450,6 +568,7 @@
 		};
 		56D4A33E2299F57200B01464 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FAE2B73E04E56262684E7E /* Pods-foodman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +586,7 @@
 		};
 		56D4A33F2299F57200B01464 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4A1A100F33FF43E5623AD3 /* Pods-foodman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +604,7 @@
 		};
 		56D4A3412299F57200B01464 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB37CA700461FF3C90B9483E /* Pods-foodmanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +625,7 @@
 		};
 		56D4A3422299F57200B01464 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE14109D8F71F08D854CBB7 /* Pods-foodmanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +646,7 @@
 		};
 		56D4A3442299F57200B01464 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7679906C7803FD4EC527AB79 /* Pods-foodmanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +666,7 @@
 		};
 		56D4A3452299F57200B01464 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CDA4546ED03B315C713F90 /* Pods-foodmanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
