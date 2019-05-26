@@ -30,7 +30,7 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbT-fv-c5e"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-97-Oke">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dishes with selected ingredients will show here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-97-Oke">
                                 <rect key="frame" x="20" y="214" width="374" height="545"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -53,8 +53,8 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hackathonlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZvG-3M-DjI">
-                                <rect key="frame" x="311" y="31" width="83" height="83"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hackathonlogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="QUa-kn-Hla">
+                                <rect key="frame" x="303" y="31" width="91" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -81,6 +81,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Hackathonlogo.png" width="504" height="360"/>
+        <image name="Hackathonlogo-1" width="867" height="875"/>
     </resources>
 </document>
