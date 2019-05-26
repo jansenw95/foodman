@@ -30,8 +30,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbT-fv-c5e"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dishes with selected ingredients will show here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-97-Oke">
-                                <rect key="frame" x="20" y="214" width="374" height="545"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Dishes with selected ingredients will show here" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-97-Oke">
+                                <rect key="frame" x="20" y="214" width="374" height="440"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="go"/>
@@ -40,20 +40,19 @@
                                 <rect key="frame" x="20" y="116" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
-                                    <action selector="TextInput:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="aWI-pZ-5N2"/>
-                                    <action selector="textFieldTest:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ta2-O2-AmB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Jpp-v3-9lQ"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome To Foodman" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F5M-SA-Gs8">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome To FoodMan" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F5M-SA-Gs8">
                                 <rect key="frame" x="9" y="52" width="330" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.0" green="0.51607027202072531" blue="0.10264220122662057" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hackathonlogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="QUa-kn-Hla">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hackathonlogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="QUa-kn-Hla">
                                 <rect key="frame" x="303" y="31" width="91" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>

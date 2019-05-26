@@ -8,7 +8,7 @@
 
 import UIKit
 
-class searchViewController: UIViewController {
+class searchViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var ourLabel: UITextView!
     @IBOutlet weak var textFieldName: UITextField!
@@ -16,9 +16,6 @@ class searchViewController: UIViewController {
         print("button pressed")
         ourLabel.text = getMeals(name: textFieldName.text!)
     }
-
-    
-
     
     //@IBOutlet weak var searchBar: UISearchBar!
     override func viewDidLoad() {
@@ -26,7 +23,13 @@ class searchViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+        textField.resignFirstResponder()
+        ourLabel.text = getMeals(name: textFieldName.text!)
+        return true
+    }
+    
     /*
     // MARK: - Navigation
 
