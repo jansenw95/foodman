@@ -8,13 +8,21 @@
 
 import UIKit
 
-class searchViewController: UIViewController, UITextFieldDelegate {
+class HeadlineTableViewCell: UITableViewCell {
+    @IBOutlet weak var headlineTextView: UILabel!
+    
+}
+
+class searchViewController: UITableViewController, UITextFieldDelegate {
+    
+    var temporaryMealList = [Meal]()
     
     @IBOutlet weak var ourLabel: UITextView!
     @IBOutlet weak var textFieldName: UITextField!
     @IBAction func buttonPressed(_ sender: Any) {
         print("button pressed")
-        ourLabel.text = getMeals(name: textFieldName.text!)
+        //ourLabel.text = getMeals(name: textFieldName.text!)
+        temporaryMealList = getMeals(name: textFieldName.text!)
     }
     
     //@IBOutlet weak var searchBar: UISearchBar!
@@ -26,9 +34,31 @@ class searchViewController: UIViewController, UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
     {
         textField.resignFirstResponder()
-        ourLabel.text = getMeals(name: textFieldName.text!)
+        //ourLabel.text = getMeals(name: textFieldName.text!)
         return true
     }
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return temporaryMealList.count
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Section \(section)"
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+            as! HeadlineTableViewCell
+        
+        cell.headlineTextView?.text = temporaryMealList[indexPath.row].strMeal
+        
+        return cell
+    }
+
     
     /*
     // MARK: - Navigation

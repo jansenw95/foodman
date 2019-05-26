@@ -18,8 +18,8 @@ struct Meal: Codable{
     let idMeal: String
 }
 
-func getMeals(name: String) -> String {
-    var mealListData = String()
+func getMeals(name: String) -> [Meal] {
+    var mealListData = [Meal]()
     if let url = URL(string: "https://www.themealdb.com/api/json/v1/1/filter.php?i=\(name)") {
         
         do {
@@ -28,13 +28,14 @@ func getMeals(name: String) -> String {
             do {
                 let decoder = JSONDecoder()
                 let jData: Container = try decoder.decode(Container.self, from: contents)
+                mealListData = jData.meals
                 
-                for meal in jData.meals {
-                    // Here I want to get an array of the json data
-                    print(meal.strMeal)
-                    mealListData += meal.strMeal + "\n"
-                    //mealListData.append(meal.strMeal)
-                }
+//                for meal in jData.meals {
+//                    // Here I want to get an array of the json data
+//                    print(meal.strMeal)
+//                    //mealListData += meal.strMeal + "\n"
+//                    mealListData.append(meal.strMeal)
+//                }
                 
             } catch {
                 print(error.localizedDescription)
@@ -42,9 +43,6 @@ func getMeals(name: String) -> String {
             
         } catch {
             print(error.localizedDescription)
-        }
-        if (mealListData == ""){
-            mealListData = "No results found"
         }
    
 }
