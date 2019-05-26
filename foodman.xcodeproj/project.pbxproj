@@ -14,6 +14,8 @@
 		56D4A3392299F57200B01464 /* foodmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A3382299F57200B01464 /* foodmanUITests.swift */; };
 		56D4A34A2299FB2F00B01464 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A3492299FB2F00B01464 /* searchViewController.swift */; };
 		56D4A351229A525300B01464 /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4A350229A525300B01464 /* Parsing.swift */; };
+		C61CFA05229A84A00069DAE4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61CFA04229A84A00069DAE4 /* Media.xcassets */; };
+		C61CFA07229A84AF0069DAE4 /* Hackathonlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CFA06229A84AF0069DAE4 /* Hackathonlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		56D4A33A2299F57200B01464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56D4A3492299FB2F00B01464 /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		56D4A350229A525300B01464 /* Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
+		C61CFA04229A84A00069DAE4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../../../Media.xcassets; sourceTree = "<group>"; };
+		C61CFA06229A84AF0069DAE4 /* Hackathonlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hackathonlogo.png; path = ../../../Hackathonlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				56D4A31C2299F57200B01464 /* Main.storyboard */,
+				C61CFA04229A84A00069DAE4 /* Media.xcassets */,
+				C61CFA06229A84AF0069DAE4 /* Hackathonlogo.png */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -254,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56D4A3202299F57200B01464 /* Assets.xcassets in Resources */,
+				C61CFA05229A84A00069DAE4 /* Media.xcassets in Resources */,
+				C61CFA07229A84AF0069DAE4 /* Hackathonlogo.png in Resources */,
 				56D4A31E2299F57200B01464 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
