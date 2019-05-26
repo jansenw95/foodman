@@ -14,10 +14,10 @@ class searchViewController: UIViewController {
     @IBOutlet weak var textFieldName: UITextField!
     @IBAction func buttonPressed(_ sender: Any) {
         print("button pressed")
-        ourLabel.text = textFieldName.text
+        ourLabel.text = getMeals(name: textFieldName.text!)
     }
     
-    
+
     
     //@IBOutlet weak var searchBar: UISearchBar!
     override func viewDidLoad() {
