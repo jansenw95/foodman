@@ -43,7 +43,9 @@ func getMeals(name: String) -> String {
         } catch {
             print(error.localizedDescription)
         }
-    
+        if (mealListData == ""){
+            mealListData = "No results found"
+        }
    
 }
 
