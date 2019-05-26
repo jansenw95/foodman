@@ -32,7 +32,7 @@ func getMeals(name: String) -> String {
                 for meal in jData.meals {
                     // Here I want to get an array of the json data
                     print(meal.strMeal)
-                    mealListData += ", " + meal.strMeal
+                    mealListData += meal.strMeal + "\n"
                     //mealListData.append(meal.strMeal)
                 }
                 
