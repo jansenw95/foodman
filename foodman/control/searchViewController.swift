@@ -10,12 +10,13 @@ import UIKit
 
 class searchViewController: UIViewController {
     
-    @IBOutlet weak var ourLabel: UILabel!
+    @IBOutlet weak var ourLabel: UITextView!
     @IBOutlet weak var textFieldName: UITextField!
     @IBAction func buttonPressed(_ sender: Any) {
         print("button pressed")
         ourLabel.text = getMeals(name: textFieldName.text!)
     }
+
     
 
     
